@@ -1,0 +1,17 @@
+li:hover{
+		background-color: grey;
+	}
+	.lista{
+		list-style-type: armenian;
+	}
+table{
+	background-color:  #f7c50a;
+	font:  armenian;
+	color: black;
+}
+td:hover{
+	background-color: grey;
+}
+body{
+	background-color: #f7c50a ;
+}

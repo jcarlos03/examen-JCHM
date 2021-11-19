@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Página de contacto</title>
+	<form method="POST" action="http://formadorestic.com/examenLLMM/procesa_taller.php">
+	<link rel="stylesheet" type="text/css" href="./estilos/estilos.css">
+</head>
+<body>
+<table border="10">
+<tr>
+	<td>Nombre del cliente</td>
+	<td><input type="text" name="nom_cli"></td>
+</tr>
+<tr>
+	<td>Email cliente</td>
+	<td><input type="email" name="email_cli"></td>
+</tr>
+<tr>
+	<td>Año matriculación del coche</td>
+	<td><input type="number" name="anyo_mat"></td>
+</tr>
+<tr>
+	<td>Campo de observaciones</td>
+	<td><input type="text" name="obs"></td>
+</tr>
+<tr>
+	<td>Seguro</td>
+	<td>
+		<input type="radio" name="tipo_seguro" id="a terceros" value="a terceros"><label for="a terceros">A terceros</label><br>
+		<input type="radio" name="tipo_seguro" id="todo riesgo" value="todo riesgo"><label for="todo riesgo">Todo riesgo</label>
+	</td>
+</tr>	
+<tr>
+	<td>Telefono de contacto</td>
+	<td><input type="text" name="tel_cli"></td>
+</tr>	
+<tr>
+	<td>Horas preferidas para llamar</td>
+	<td><select name="rango_llamadas" id="rango llamadas">
+		<option value="Seleccione rango">--Seleccione rango--</option>
+		<option value="8-12">De 8:00 a 12:00</option>	
+		<option value="12-16">De 12:00 a 16:00</option>	
+		<option value="16-20">De 16:00 a 20:00</option>	
+	</select>
+	</td>
+</tr>
+<tr>
+<td colspan="2">	
+<input type="submit" name="enviar">
+</td>
+</tr>
+</table>
+<a href="./inicio.html"><img src="flecha2.jpg" alt="pagina de contacto" widht="200px" height="100px">
+</body>
+</html>
